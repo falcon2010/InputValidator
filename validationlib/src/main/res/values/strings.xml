@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ValidationLib</string>
+    <string name="vi_all_validation_error">Some thing go wrong</string>
+    <string name="vi_validation_email">Invalid Email</string>
+    <string name="vi_validation_length">Invalid input length</string>
+    <string name="vi_validation_not_same">not same value</string>
+    <string name="vi_validation_number_only">allow Number only</string>
+    <string name="vi_validation_phone">Invalid phone format</string>
+    <string name="vi_required">Required</string>
+    <string name="vi_validation_url">Invalid Url Format</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ValidationInput">
+
+        <!-- required rule -->
+        <attr name="vi_required" format="boolean" />
+        <attr name="vi_required_message" format="string|reference" />
+
+        <!-- email rule -->
+        <attr name="vi_email" format="boolean" />
+        <attr name="vi_email_message" format="string|reference" />
+
+
+        <!-- input length rule (min , max ) -->
+        <attr name="vi_input_length" format="boolean" />
+        <attr name="vi_input_length_message" format="string|reference" />
+        <attr name="vi_input_length_min" format="integer" />
+        <attr name="vi_input_length_max" format="integer" />
+
+
+        <!-- Url input -->
+        <attr name="vi_url" format="boolean"/>
+        <attr name="vi_url_message" format="string|reference"/>
+
+        <!-- phone rule -->
+        <attr name="vi_phone" format="boolean" />
+        <attr name="vi_phone_message" format="string|reference" />
+        <attr name="vi_phone_code" format="integer" />
+
+        <!-- regex rule -->
+        <attr name="vi_regex" format="boolean" />
+        <attr name="vi_regex_message" format="string|reference" />
+        <attr name="vi_regex_match" format="string|reference" />
+
+
+
+
+
+    </declare-styleable>
+
+
+</resources>
